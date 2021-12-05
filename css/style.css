@@ -1,0 +1,622 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif; */
+
+
+
+a {
+    text-decoration: none;
+}
+
+ol,
+ul {
+    list-style-type: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.clr {
+    clear: both;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/* =================================== header section start ================================= */
+
+
+#header {
+    background: rgb(0, 0, 0, .6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999999;
+}
+
+.header-left {
+    float: left;
+    width: 25%;
+}
+
+.header-left img {
+    padding-top: 33px;
+}
+
+.header-right {
+    float: left;
+    width: 75%;
+}
+
+.header-right ul {
+    text-align: right;
+    line-height: 90px;
+}
+
+.header-right ul li {
+    display: inline-block;
+    padding-left: 43px;
+}
+
+.header-right ul li a {
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    text-transform: uppercase;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+.header-right ul li a:hover {
+    color: #28b8d8;
+}
+
+
+/* ====================== Banner part start ============================== */
+
+#banner {
+    background: url(../images/banner.jpg) center no-repeat;
+    background-size: cover;
+    padding-top: 331px;
+    padding-bottom: 288px;
+}
+
+.banner-text {
+    text-align: center;
+}
+
+.banner-text h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.banner-text h2 {
+    font-weight: 300;
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    margin-top: -7px;
+}
+
+.banner-text p {
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/* ===================== About section start ============================= */
+
+#about {
+    padding-top: 80px;
+    padding-bottom: 83px;
+    background: #f9f9f9;
+}
+
+.about-header {
+    text-align: center;
+}
+
+.about-header h2 {
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    color: #444444;
+    padding-bottom: 15px;
+}
+
+.about-header p {
+    color: #666666;
+    font-weight: 400;
+    font-family: 'Roboto', serif;
+    font-size: 14px;
+}
+
+.section-header {
+    padding-top: 80px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.section-header h2 {
+    font-family: 'Roboto', serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #444444;
+    text-transform: uppercase;
+}
+
+.about-list {}
+
+.about-list .about-item {
+    float: left;
+    width: 360px;
+    padding: 15px;
+    border: 1px solid #e3e3e3;
+    background: #ffff;
+    margin-right: 30px;
+}
+
+.mr-none {
+    margin-right: 0;
+}
+
+.about-list .about-item img {
+    width: 100%;
+}
+
+.header-bottom {
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 5px;
+}
+
+.header-bottom h3 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 17px;
+    color: #444444;
+}
+
+.header-bottom p {
+    font-family: 'Roboto', serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #666666;
+    padding-top: 5px;
+}
+
+/* =========================== shots section start =================================== */
+
+
+#shots {
+    background: #2c2c2c;
+}
+
+.shots-head {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 44px;
+}
+
+.shots-head h2 {
+    color: #d5d5d5;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.shots-head h2::before {
+    content: '';
+    position: absolute;
+    left: -115px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100px;
+    height: 1px;
+    background: #535353;
+}
+
+.shots-head h2::after {
+    content: '';
+    position: absolute;
+    right: -115px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100px;
+    height: 1px;
+    background: #535353;
+}
+
+.list-item {
+    width: 25%;
+    float: left;
+}
+
+.list-item img {
+    width: 100%;
+}
+
+.button {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 52px;
+}
+
+.button a {
+    display: inline-block;
+    color: #8e8e8e;
+    border: 1px solid #8e8e8e;
+    text-transform: uppercase;
+    padding: 18px 22px;
+}
+
+/* ============================ journal part css start ================================ */
+
+
+
+#journal {
+    background: #f9f9f9;
+    padding-top: 78px;
+    padding-bottom: 84px;
+}
+
+.journal-head {
+    text-align: center;
+}
+
+.journal-head h2 {
+    color: #444444;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.journal-head h2::before {
+    content: '';
+    position: absolute;
+    left: -115px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100px;
+    height: 1px;
+    background: #d9d9d9;
+}
+
+.journal-head h2::after {
+    content: '';
+    position: absolute;
+    right: -115px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100px;
+    height: 1px;
+    background: #d9d9d9;
+}
+
+.journal-list {
+    padding-top: 30px;
+}
+
+.journal-item {
+    width: 360px;
+    float: left;
+    border: 1px solid #e3e3e3;
+    background: #ffff;
+    margin-right: 30px;
+}
+
+.journal-item h2 {
+    text-align: center;
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #444444;
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+
+.journal-item h5 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #999999;
+    margin-bottom: 22px;
+}
+
+.journal-item img {
+    width: 100%;
+}
+
+.journal-item p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    padding-top: 27px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #666666;
+}
+
+.heart-line {
+    padding: 26px 25px;
+}
+
+.heart-line h6 {
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    color: #999999;
+    text-transform: uppercase;
+    border-bottom: 1px solid #28b8d8;
+}
+
+.heart-line span {
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    color: #999999;
+    text-transform: uppercase;
+}
+
+
+/* ===================================== Little part start ========================================== */
+
+#little {
+    background: #f9f9f9;
+    padding-bottom: 65px;
+}
+
+.little-col {
+    width: 555px;
+    float: left;
+    margin-right: 30px;
+}
+
+.little-head {
+    padding-bottom: 20px;
+}
+
+.little-head h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #444444;
+    display: inline-block;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.little-head h2::after {
+    position: absolute;
+    content: '';
+    top: 50%;
+    transform: translateY(-50%);
+    right: -115px;
+    width: 100px;
+    height: 1px;
+    background: #d9d9d9;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.little-left-img {
+    width: 196px;
+    float: left;
+    margin-right: 25px;
+}
+
+.little-left-img img {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.little-left-content {}
+
+.little-left-content p {
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 300;
+    font-family: 'Roboto Slab', sans-serif;
+    margin-bottom: 13px;
+}
+
+.little-left-content span {
+    color: #666666;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+.little-right-main {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.right-icon {
+    width: 40px;
+    height: 70px;
+    float: left;
+    margin-right: 24px;
+}
+
+.right-icon img {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.right-content {
+    margin-bottom: 20px;
+}
+
+.right-content h3 {
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
+    padding-bottom: 8px;
+}
+
+.right-content p {
+    font-size: 14px;
+    line-height: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+}
+
+
+/* ===================== footer start ================================== */
+
+#footer {
+    padding: 68px 0;
+    background: #373737;
+}
+
+.footer-col {
+    width: 25%;
+    float: left;
+    padding-right: 30px;
+}
+
+.footer-head {
+    margin-bottom: 15px;
+}
+
+.footer-head h2 {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #f0f0f0;
+    text-transform: uppercase;
+}
+
+.footer-content {}
+
+.footer-content p {
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+    font-size: 14px;
+    color: #cacaca;
+}
+
+.address {
+    margin-top: 17px;
+}
+
+.address ul li i {
+    padding-right: 10px;
+}
+.address ul li span{
+    padding-left: 5px;
+}
+.address ul li {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    color: #cacaca;
+}
+.address ul li img{
+    width: 13px;
+    margin-right: 10px;
+}
+.pl-x {
+    padding-left: 26px;
+}
+
+.ptb{
+    padding-top: 16px;
+    padding-bottom: 27px;
+}
+.footer-content h5{
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    color: #929292;
+}
+.footer-content2{
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+.footer-content2 p{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 22px;
+    color: #cacaca;
+
+}
+.footer-col h5{
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    color: #929292;
+}
+
+.m-top{
+    margin-top: 20px;
+}
+
+
+
+/* ==================== last-footer======================== */
+
+#last-footer {
+    background: #333333;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#last-footer p {
+    color: #cacaca;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* =====================================================
+========================================================
+------------------ This Project is End -----------------                
+========================================================
+===================================================== */
